@@ -1,4 +1,7 @@
 run/hello
+*.swp
+.DS_Store
+
 
 # Compiled Object files
 *.slo
