@@ -23,3 +23,18 @@ Run ldd to list dynamic dependencies:
 `ldd run/hello`
 
 Try this with and without the `-static` `g++` flag.
+
+# Open `static-run` image:
+```bash
+docker save static-run -o static-run.tar
+
+# Extract image tar archive:
+mkdir static-run
+tar -xf static-run.tar -C static-run
+
+# List files
+tree static-run
+
+```
+
+
