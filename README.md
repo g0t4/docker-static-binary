@@ -11,3 +11,5 @@ Cleanup:
 ```bash
 docker rmi static-build static-run
 ```
+
+If you want to see what happens when the binary isn't static linked, drop the `-static` flag from the call to `g++`
